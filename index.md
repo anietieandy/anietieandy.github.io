@@ -1,5 +1,5 @@
 ---
-title: Andy
+title: Anietie Andy
 layout: default
 img: profile-small
 img_link: assets/img/profile-large.jpg
