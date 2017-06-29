@@ -10,16 +10,16 @@
    id: name-variation-in-community-question-answering-systems
    abstract: Community question answering systems are forums where users can ask and answer questions in various categories. Examples are Yahoo! Answers, Quora, and Stack Overflow. A common challenge with such systems is that a significant percentage of asked questions are left unanswered. In this paper, we propose an algorithm to reduce the number of unanswered questions in Yahoo! Answers by reusing the answer to the most similar past resolved question to the unanswered question, from the site. Semantically similar questions could be worded differently, thereby making it difficult to find questions that have shared needs. For example, Who is the best player for the Reds? and Who is currently the biggest star at Manchester United? have a shared need but are worded differently; also, Reds and Manchester United are used to refer to the soccer team Manchester United football club. In this research, we focus on question categories that contain a large number of named entities and entity name variations. We show that in these categories, entity linking can be used to identify relevant past resolved questions with shared needs as a given question by disambiguating named entities and matching these questions based on the disambiguated entities, identified entities, and knowledge base information related to these entities. We evaluated our algorithm on a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (Qgiven, [Qpast, Answer]). We carried out experiments on several question categories and show that an entity-based approach gives good performance when searching for similar questions in entity rich categories.
    bibtex: |
-      @inproceedings{Cocos-Apidianaki-Callison-Burch:2017:SENSE-WS,
-        author    = {Anne Cocos and Marianna Apidianaki  and  Chris Callison-Burch},
-        title     = {Word Sense Filtering Improves Embedding-Based Lexical Substitution},
-        booktitle = {Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications},
-        month     = {April},
-        year      = {2017},
-        address   = {Valencia, Spain},
+      @inproceedings{andy2016name,
+        author    = {Anietie Andy and Satoshi Sekine, Mugizi Rwebangira, and  Chris Callison-Burch},
+        title     = {Name Variation in Community Question Answering Systems},
+        booktitle = {Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)},
+        month     = {Dec},
+        year      = {2016},
+        address   = {Osaka, Japan},
         publisher = {Association for Computational Linguistics},
-        pages     = {110--119},
-        url       = {http://www.aclweb.org/anthology/E17-2016}
+        pages     = {51--60},
+        url       = {http://anthology.aclweb.org/W/W16/W16-39.pdf#page=63}
       }
 -
    title: The Language of Place&colon; Semantic Value from Geospatial Context
