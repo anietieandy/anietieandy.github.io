@@ -44,24 +44,24 @@
       url       = {http://www.aclweb.org/website/old_anthology/W/W16/W16-44.pdf#page=51}
     }
 -
-   title: Crowd Control&colon; Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation
-   authors: Anne Cocos, Ting Qiana, Chris Callison-Burch, and Aaron J. Masino
-   venue: Journal of Biomedical Informatics
-   type: journal
-   year: 2017
-   url: http://www.sciencedirect.com/science/article/pii/S1532046417300746
-   page_count: 22
-   id: optimizing-machine-translation-for-text-simplifciation
-   abstract: Annotating unstructured texts in Electronic Health Records data is usually a necessary step for conducting machine learning research on such datasets. Manual annotation by domain experts provides data of the best quality, but has become increasingly impractical given the rapid increase in the volume of EHR data. In this article, we examine the effectiveness of crowdsourcing with unscreened online workers as an alternative for transforming unstructured texts in EHRs into annotated data that are directly usable in supervised learning models. We find the crowdsourced annotation data to be just as effective as expert data in training a sentence classification model to detect the mentioning of abnormal ear anatomy in radiology reports of audiology. Furthermore, we have discovered that enabling workers to self-report a confidence level associated with each annotation can help researchers pinpoint less-accurate annotations requiring expert scrutiny. Our findings suggest that even crowd workers without specific domain knowledge can contribute effectively to the task of annotating unstructured EHR datasets.
+   title: Exploiting Named Entity Synonyms in Question Answering Systems 
+   authors: Anietie Andy and Mugizi Rwebangira
+   venue: Symposium on Computing at Minority Institutions, ADMI
+   type: Conference
+   year: 2016
+   url: https://www.admiusa.org/admi2016/Papers_Graduate_Student/ADMI2016_Andy.pdf
+   page_count: 3
+   id: exploiting-named-entity-synonyms-in-question-answering-systems
+   abstract: Community Question answering (CQA) systems have increasingly become popular among internet users. CQA’s such as Yahoo! Answers have a large repository of resolved questions i.e. questions that have been satisfactorily answered. One of the challenges with these systems is that some questions are left unanswered thereby leaving the user unsatisfied. Papers have proposed algorithms to reduce the number of unanswered questions. Some of the proposed algorithms work as follows: (i) direct the unanswered question to CQA users that can potentially answer the question and (ii) use answers to past resolved questions that are similar to the given question. This paper explores an approach that extracts the word synonyms of named entities in a given question and searches the dataset of past resolved questions for similar resolved questions to the given question. The answer to the most similar resolved question is used to satisfy the given question. This paper proposes an algorithm to improve the CQA user experience by using the answer to the most similar past resolved question to satisfy a given question. In cases where the answer to the most similar question cannot satisfy the given question, the proposed algorithm recommends the answer to a related question. Although the answer to the related question will probably not satisfy the given question, it will engage the CQA user and perhaps provide a clue to answer the given question. 
    bibtex: |
-      @article{Xu-EtAl:2016:TACL,
-         author = {Anne Cocos and Ting Qiana and Chris Callison-Burch and Aaron Masino},
-         title = {Crowd Control: Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation},
-         journal = {Journal of Biomedical Informatics},
+      @article{andyexploiting,
+         author = {Anietie Andy and Mugizi Rwebangira},
+         title = {Exploiting Named Entity Synonyms in Question Answering Systems},
+         journal = {Symposium on Computing at Minority Institutions, ADMI},
          volume = {},
          number = {},
-         year = {2017},
-         url = {http://www.sciencedirect.com/science/article/pii/S1532046417300746}
+         year = {2016},
+         url = {https://www.admiusa.org/admi2016/Papers_Graduate_Student/ADMI2016_Andy.pdf}
        }
 -
    title: The Gun Violence Database
