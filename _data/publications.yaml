@@ -11,7 +11,7 @@
    abstract: Community question answering systems are forums where users can ask and answer questions in various categories. Examples are Yahoo! Answers, Quora, and Stack Overflow. A common challenge with such systems is that a significant percentage of asked questions are left unanswered. In this paper, we propose an algorithm to reduce the number of unanswered questions in Yahoo! Answers by reusing the answer to the most similar past resolved question to the unanswered question, from the site. Semantically similar questions could be worded differently, thereby making it difficult to find questions that have shared needs. For example, Who is the best player for the Reds? and Who is currently the biggest star at Manchester United? have a shared need but are worded differently; also, Reds and Manchester United are used to refer to the soccer team Manchester United football club. In this research, we focus on question categories that contain a large number of named entities and entity name variations. We show that in these categories, entity linking can be used to identify relevant past resolved questions with shared needs as a given question by disambiguating named entities and matching these questions based on the disambiguated entities, identified entities, and knowledge base information related to these entities. We evaluated our algorithm on a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (Qgiven, [Qpast, Answer]). We carried out experiments on several question categories and show that an entity-based approach gives good performance when searching for similar questions in entity rich categories.
    bibtex: |
       @inproceedings{andy2016name,
-        author    = {Anietie Andy and Satoshi Sekine, Mugizi Rwebangira, and  Chris Callison-Burch},
+        author    = {Anietie Andy and Satoshi Sekine, Mugizi Rwebangira, and  Mark Dredze},
         title     = {Name Variation in Community Question Answering Systems},
         booktitle = {Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)},
         month     = {December},
@@ -23,7 +23,7 @@
       }
 -
    title: An Entity-Based approach to Answering Recurrent and Non-Recurrent Questions with Past Answers
-   authors: Anietie Andy, Mugizi Rwebangira,and Chris Callison-Burch
+   authors: Anietie Andy, Mugizi Rwebangira, and Satoshi Sekine
    venue: Open Knowledge Base and Question Answering Workshop (OKBQA2016)
    type: workshop
    year: 2016
