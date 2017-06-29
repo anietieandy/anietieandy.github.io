@@ -1,12 +1,12 @@
 -
    title: Name Variation in Community Question Answering Systems
    authors: Anietie Andy, Satoshi Sekine, Mugizi Rwebangira, Mark Dredze
-   venue: Workshop on Sense, Concept and Entity Representations and their Applications
+   venue: Workshop on Noisy User-generated Text
    type: workshop
    award: Best Paper Award
-   year: 2017
+   year: 2016
    url: publications/word-sense-filtering-improves-lexical-substitution.pdf
-   page_count: 9
+   page_count: 10
    id: word-sense-filtering-improves-lexical-substitution
    abstract: The role of word sense disambiguation in lexical substitution has been questioned due to the high performance of vector space models which propose good substitutes without explicitly accounting for sense. We show that a filtering mechanism based on a sense inventory optimized for substitutability can improve the results of these models. Our sense inventory is constructed using a clustering method which generates paraphrase clusters that are congruent with lexical substitution annotations in a development set. The results show that lexical substitution can still benefit from senses which can improve the output of vector space paraphrase ranking models. 
    bibtex: |
