@@ -17,7 +17,6 @@ To make sense of these knowledge and understand the nuances of human language, c
 have to be able to extract structured knowledge from unstructured text. In certain languages,
 semantically similar sentences could be worded differently and words are sometimes ambiguous,
 hence the specifc sense of a word intended in a sentence is determined by the context in which an
-instance of the ambiguous word appears. Additionally, due to the lack of uniformity in individual
-writing styles, multiple people can express the same word, phrase, or sentence differently.
+instance of the ambiguous word appears. 
 My research interest focuses on applying machine learning to better understand the various ways
 in which words, phrases, and sentences are expressed.
