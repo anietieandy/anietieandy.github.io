@@ -18,5 +18,6 @@ have to be able to extract structured knowledge from unstructured text. In certa
 semantically similar sentences could be worded differently and words are sometimes ambiguous,
 hence the specifc sense of a word intended in a sentence is determined by the context in which an
 instance of the ambiguous word appears. 
+
 My research interest focuses on applying machine learning to better understand the various ways
 in which words, phrases, and sentences are expressed.
