@@ -5,7 +5,7 @@
    type: workshop
    award: Best Paper Award
    year: 2016
-   url: publications/word-sense-filtering-improves-lexical-substitution.pdf
+   url: publications/name-variation-in-community-question-answering-systems.pdf
    page_count: 10
    id: name-variation-in-community-question-answering-systems
    abstract: Community question answering systems are forums where users can ask and answer questions in various categories. Examples are Yahoo! Answers, Quora, and Stack Overflow. A common challenge with such systems is that a significant percentage of asked questions are left unanswered. In this paper, we propose an algorithm to reduce the number of unanswered questions in Yahoo! Answers by reusing the answer to the most similar past resolved question to the unanswered question, from the site. Semantically similar questions could be worded differently, thereby making it difficult to find questions that have shared needs. For example, Who is the best player for the Reds? and Who is currently the biggest star at Manchester United? have a shared need but are worded differently; also, Reds and Manchester United are used to refer to the soccer team Manchester United football club. In this research, we focus on question categories that contain a large number of named entities and entity name variations. We show that in these categories, entity linking can be used to identify relevant past resolved questions with shared needs as a given question by disambiguating named entities and matching these questions based on the disambiguated entities, identified entities, and knowledge base information related to these entities. We evaluated our algorithm on a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (Qgiven, [Qpast, Answer]). We carried out experiments on several question categories and show that an entity-based approach gives good performance when searching for similar questions in entity rich categories.
@@ -14,7 +14,7 @@
         author    = {Anietie Andy and Satoshi Sekine, Mugizi Rwebangira, and  Chris Callison-Burch},
         title     = {Name Variation in Community Question Answering Systems},
         booktitle = {Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)},
-        month     = {Dec},
+        month     = {December},
         year      = {2016},
         address   = {Osaka, Japan},
         publisher = {Association for Computational Linguistics},
@@ -22,26 +22,26 @@
         url       = {http://anthology.aclweb.org/W/W16/W16-39.pdf#page=63}
       }
 -
-   title: The Language of Place&colon; Semantic Value from Geospatial Context
-   authors: Ann Cocos and Chris Callison-Burch
-   venue: EACL
-   type: conference
-   year: 2017
-   url: publications/language-of-place.pdf
+   title: An Entity-Base approach to Answering Recurrent and Non-Recurrent Questions with Past Answers
+   authors: Anietie Andy, Mugizi Rwebangira,and Chris Callison-Burch
+   venue: Open Knowledge Base and Question Answering Workshop (OKBQA2016)
+   type: workshop
+   year: 2016
+   url: publications/entity-based-qa.pdf
    page_count: 5
-   id: language-of-place
-   abstract: There is a relationship between what we say and where we say it. Word embeddings are usually trained assuming that semantically-similar words occur within the same textual contexts. We investigate the extent to which semantically-similar words occur within the same geospatial contexts. We enrich a corpus of geolocated Twitter posts with physical data derived from Google Places and OpenStreetMap, and train word embeddings using the resulting geospatial contexts. Intrinsic evaluation of the resulting vectors shows that geographic context alone does provide useful information about semantic relatedness.
+   id: entity-based-qa
+   abstract: Community question answering (CQA) systems such as Yahoo! Answers allow registered-users to ask and answer questions in various question categories. However, a significant percentage of asked questions in Yahoo! Answers are unanswered. In this paper, we propose to reduce this percentage by reusing answers to past resolved questions from the site. Specifically, we propose to satisfy unanswered questions in entity rich categories by searching for and reusing the best answers to past resolved questions with shared needs. For unanswered questions that do not have a past resolved question with a shared need, we propose to use the best answer to a past resolved question with similar needs. Our experiments on a Yahoo! Answers dataset shows that our approach retrieves most of the past resolved questions that have shared or similar needs to unanswered questions.
    bibtex: |
-    @InProceedings{cocos-callisonburch:2017:EACLshort,
-      author    = {Cocos, Anne  and  Callison-Burch, Chris},
-      title     = {The Language of Place: Semantic Value from Geospatial Context},
-      booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
-      month     = {April},
-      year      = {2017},
-      address   = {Valencia, Spain},
+    @InProceedings{{andy2016entity,,
+      author    = {Andy, Anietie, Rwebangira, Robert,and  Sekine, Satoshi},
+      title     = {An Entity-Base approach to Answering Recurrent and Non-Recurrent Questions with Past Answers},
+      booktitle = {Proceedings of the Open Knowledge Base and Question Answering Workshop at COLING, Short Papers},
+      month     = {December},
+      year      = {2016},
+      address   = {Osaka, Japan},
       publisher = {Association for Computational Linguistics},
-      pages     = {99--104},
-      url       = {http://www.aclweb.org/anthology/E17-2016}
+      pages     = {39--43},
+      url       = {http://www.aclweb.org/website/old_anthology/W/W16/W16-44.pdf#page=51}
     }
 -
    title: Crowd Control&colon; Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation
