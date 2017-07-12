@@ -14,10 +14,7 @@ I am a Postdoctoral Reasearch Fellow at the Department of Computer and Informati
 
 Over time, human knowledge has mostly been expressed in text, some of which are unstructured.
 To make sense of these knowledge and understand the nuances of human language, computers
-have to be able to extract structured knowledge from unstructured text. In certain languages,
-semantically similar sentences could be worded differently and words are sometimes ambiguous,
-hence the specifc sense of a word intended in a sentence is determined by the context in which an
-instance of the ambiguous word appears. 
+have to be able to extract structured knowledge from unstructured text. 
 
 My research interest focuses on applying machine learning to better understand the various ways
 in which words, phrases, and sentences are expressed.
