@@ -5591,24 +5591,4 @@
          year =                {2001},
        }
        
--
-   title: A Computer Model of a Grammar for English Questions
-   authors: Chris Callison-Burch
-   venue: Undergraduate thesis, Symbolic Systems Program, Stanford University
-   type: thesis
-   year: 2000
-   url: publications/computer-model-of-a-grammar-for-english-questions.pdf
-   page_count: 78
-   id: computer-model-of-a-grammar-for-english-questions
-   figures:
-   abstract: This document describes my senior honors project, which is an implementation of a grammar for English questions. I have created a computer model of Ginzburg and Sag’s theory of English interrogative constructions using the parsing software developed at the Center for Study of Language and Information (CSLI). In this chapter I describe the LKB parsing software, give instructions on downloading the system, and comment on the process of grammar engineering. The next chapter gives a summary of Ginzburg and Sag (2000). Chapter 3 details the discrepancies between the Ginzburg and Sag theory and my implementation. Chapter 4 provides a detailed discussion of a set of key example sentences. The appendices contain tables describing all the grammar constructions, lexical rules, types, and example lexical entries used in my implementation. 
-   bibtex: |
-      @MISC{Callison-Burch2000,
-         author =  {Chris Callison-Burch},
-         title =   {A Computer Model of a Grammar for English Questions},
-         school = {Stanford University},
-         address =   {Palo Alto, California},
-         note = {Undergraduate honors thesis},
-         year =    {2000}
-       }
-       
+
