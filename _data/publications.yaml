@@ -73,25 +73,25 @@
    abstract: In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
    
 -
-   title: The Gun Violence Database&colon; A new task and data set for NLP
-   authors: Ellie Pavlick, Heng Ji, Xiaoman Pan and Chris Callison-Burch
-   venue: EMNLP
-   type: conference
-   year: 2016
-   url: publications/gun-violence-database.pdf
-   page_count: 6
-   id: gun-violence-database
-   abstract: We argue that NLP researchers are especially well-positioned to contribute to the national discussion about gun violence. Reasoning about the causes and outcomes of gun violence is typically dominated by politics and emotion, and data-driven research on the topic is stymied by a shortage of data and a lack of federal funding. However, data abounds in the form of unstructured text from news articles across the country. This is an ideal application of NLP technologies, such as relation extraction, coreference resolution, and event detection. We introduce a new and growing dataset, the Gun Violence Database, in order to facilitate the adaptation of current NLP technologies to the domain of gun violence, thus enabling better social science research on this important and under-resourced problem.
+   title: Exploiting Synonyms to improve Question Answering Systems
+   authors: Anietie Andy, Mugizi Rwebangira, and Mohamed Chouikha
+   venue: International Journal of Computer Applications
+   type: Journal
+   year: 2014
+   url: http://research.ijcaonline.org/volume108/number18/pxc3900523.pdf
+   page_count: 4
+   id: exploiting-synonyms-to-improve-question-answering-systems
+   abstract: Community Question and Answering (CQA) systems are a popular way for Internet users to get answers to complex and common everyday questions. One of the challenges with CQA is that some of the asked questions are not answered [8]. This paper addresses this challenge by using a synonym-based approach that expands each unanswered question into several related questions. This paper argues that the number of unanswered questions can be reduced by searching the data set for the most similar resolved question(s) (questions that have been satisfactorily answered) to either the unanswered question and / or any of its expanded questions. If this search returns more than one resolved question, we rank the returned questions and choose the highest ranking resolved question as the most similar to the unanswered question
    bibtex: |
-      @inproceedings{Pavlick-EtAl:2016:EMNLP,
-       author = {Ellie Pavlick and Heng Ji and Xiaoman Pan and Chris Callison-Burch},
-       title = {The Gun Violence Database: A new task and data set for {NLP}},
-       booktitle = {Proceedings of The 2016 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
-       month = {November},
-       year = {2016},
-       address = {Austin, TX},
-       url = {http://www.cis.upenn.edu/~ccb/publications/gun-violence-database.pdf}
-       } 
+      @article{andy2014exploiting,
+      title={Exploiting Synonyms to Improve Question and Answering Systems},
+      author={Andy, Anietie and Robert, Mugizi and Chouikha, Mohamed},
+      journal={International Journal of Computer Applications},
+      volume={108},
+      number={18},
+      year={2014},
+      publisher={Foundation of Computer Science}
+     } 
 -
    title: Tense Manages to Predict Implicative Behavior in Verbs
    authors: Ellie Pavlick and Chris Callison-Burch
