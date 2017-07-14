@@ -1,9 +1,9 @@
 ---
-title: Chris Callison-Burch 
+title: Anietie Andy 
 layout: default
 active_tab: CV
 ---
-<h1>Chris Callison-Burch: CV</h1>
+<h1>Anietie Andy: CV</h1>
 <p class="text-muted">
 (Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
 </p>
