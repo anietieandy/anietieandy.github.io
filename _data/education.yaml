@@ -1,25 +1,23 @@
 -
-   degree: PhD in Informatics 
-   institution: University of Edinburgh
-   location: Edinburgh, UK
-   start_date: September 2001
-   end_date: February 2008
-   thesis: Paraphrasing and Translation
-   advisor: Miles Osborne and Mark Steedman
+   degree: PhD in Computer Science 
+   institution: Howard University
+   location: Washington, DC, USA
+   start_date: August 2013
+   end_date: December 2016
+   thesis: Exploring Entity-based approaches to answering questions in Community Question Answering Systems
+   advisor: Mugizi Rwebangira, Satoshi Sekine, Mark Dredze
 -
-   degree: M.S. with Distinction in Computer Science 
-   institution: University of Edinburgh
-   location: Edinburgh, UK
-   start_date: September 2001
-   end_date: October 2002
-   thesis: Co-Training for Statistical Machine Translation
-   advisor: Miles Osborne
+   degree: M.Sc in Computer Science 
+   institution: Howard University
+   location: Washington, DC, USA
+   start_date: January 2008
+   end_date: December 2009
+   advisor: Chunmei Liu
 -
-   degree: B.S. with Honors in Symbolic Systems
-   institution: Stanford University
-   location: Palo Alto, CA
-   start_date: September 1996
-   end_date: June 2000
-   thesis: A Computer Model of a Grammar for English Questions
-   advisor: Ivan Sag
+   degree: B.Sc Computer Science
+   institution: University of Uyo
+   location: Uyo, Nigeria
+   start_date: September 1999
+   end_date: June 2005
+   
 
