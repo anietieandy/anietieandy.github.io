@@ -113,26 +113,23 @@
       publisher={IOS Press}
       }
 -
-   title: So-Called Non-Subsective Adjectives
-   authors: Ellie Pavlick and Chris Callison-Burch
-   venue: STARSEM
-   type: conference
-   award: Best Paper Award
-   year: 2016
-   url: publications/non-subsective-adjectives.pdf
-   page_count: 6
-   id: non-subsective-adjectives
-   abstract: The interpretation of adjective-noun pairs plays a crucial role in tasks such as recognizing textual entailment. Formal semantics often places adjectives into a taxonomy which should dictate adjectives’ entailment behavior when placed in adjective-noun compounds. However, we show experimentally that the behavior of subsective adjectives (e.g. red) versus non-subsective adjectives (e.g. fake) is not as cut and dry as often assumed. For example, inferences are not always symmetric&colon; while ID is generally considered to be mutually exclusive with fake ID, fake ID is considered to entail ID. We discuss the implications of these findings for automated natural language understanding.
+   title: A graph algorithm for extracting features from transcription factor binding sites
+   authors: Chunmei Liu, Junfeng Qu, Yinglei Song,  and Anietie Andy
+   venue: IEEE Workshop on Bioinformatics and Biomedicine, 2009. BIBMW 2009
+   type: Workshop
+   year: 2009
+   url: http://ieeexplore.ieee.org/document/5332139/#full-text-section
+   id: a-graph-algorithm
+   abstract: Transcription factors play important roles in gene regulation. An accurate model that can describe the binding site of a transcription factor in the promoter region of a gene is thus the key for understanding the regulation of the gene. In this paper, we develop a new graph theoretical approach that can efficiently extract features from the binding sites of a transcription factor. These features contain the dependencies among different positions in the binding site and thus can provide a more accurate description of binding sites than models based on the conventional position specific scoring matrix (PSSM). Based on these features, statistical models can be constructed to describe the binding sites of a transcriptional factor. Our testing results showed that models constructed with our approach can find important features for binding sites and achieve significantly improved accuracy for predicting the locations of binding sites in DNA genomes.
    bibtex: |
-      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
-       author = {Ellie Pavlick and Chris Callison-Burch},
-       title = {So-Called Non-Subsective Adjectives},
-       booktitle = {*SEM 2016: The Fifth Joint Conference on Lexical and Computational Semantics},
-       month = {August},
-       year = {2016},
-       address = {Berlin, Germany},
-       url = {http://www.cis.upenn.edu/~ccb/publications/non-subsective-adjectives.pdf}
-       } 
+      @inproceedings{liu2009graph,
+      title={A graph algorithm for extracting features from transcription factor binding sites},
+      author={Liu, Chunmei and Qu, Junfeng and Song, Yinglei and Andy, Anietie U},
+      booktitle={Bioinformatics and Biomedicine Workshop, 2009. BIBMW 2009. IEEE International Conference on},
+      pages={68--72},
+      year={2009},
+      organization={IEEE}
+      }
 -
    title: Most babies are little and most problems are huge&colon; Compositional Entailment in Adjective-Nouns
    authors: Ellie Pavlick and Chris Callison-Burch
