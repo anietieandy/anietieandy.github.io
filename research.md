@@ -57,6 +57,30 @@ Community question answering (CQA) systems are forums where users can ask and an
 
 Most of my prior work on CQA proposed algorithms to reduce the percentage of unanswered questions in a CQA by reusing the repository of past resolved questions (PARQ) from the CQA site. My collaborators and I focused especially on question categories in which most questions contain either a named entity or an entity variation i.e. the Sports and Entertainment question categories. In these categories, the vocabulary in questions can be diverse, and questions are often very short [2]. We created a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (given question, PARQ, and its corresponding answer) from the Sports and Entertainment question categories. Table 1 presents some of the named entities and their variations in our dataset.
 
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Tables</title>
+   </head>
+	
+   <body>
+      <table border = "1">
+         <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+         </tr>
+         
+         <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+         </tr>
+      </table>
+      
+   </body>
+</html>
+
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
 My approach to language understanding is inspired by my past research in machine translation. The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](#findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
