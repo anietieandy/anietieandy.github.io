@@ -7,10 +7,8 @@ active_tab: publications
 
 <table class="table"> 
 <tbody>
-  {% for year in (2009, 2010, 2014,2016,2017) reversed %}
-    <tr><td>
-	<a name="{{year}}"></a><h1>{{year}}</h1>
-    </td><td></td></tr>
+  {% for year in (2009..2017) reversed %}
+    
     {% for publication in site.data.publications %}
     {%if publication.year == year%}
     <tr>
