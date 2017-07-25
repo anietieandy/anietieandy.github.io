@@ -46,6 +46,19 @@ publications:
 (Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
 </p>
 
+Over time, human knowledge has mostly been expressed in text, some of which are unstructured.
+To make sense of these knowledge and understand the nuances of human language, computers
+have to be able to extract structured knowledge from unstructured text. In certain languages,
+semantically similar sentences could be worded differently and words are sometimes ambiguous,
+hence the specific sense of a word intended in a sentence is determined by the context in which an
+instance of the ambiguous word appears. Additionally, due to the lack of uniformity in individual
+writing styles, multiple people can express the same word, phrase, or sentence differently(e.g. a
+sports team could be referred to by its official name, the name of the city it plays in, or by any of
+several nicknames). These make it challenging to find similar words, phrases, and sentences that
+express the same information, in text.
+My research interest focuses on applying machine learning to better understand the various ways
+in which words, phrases, and sentences are expressed.
+
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
 My approach to language understanding is inspired by my past research in machine translation. The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](#findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
