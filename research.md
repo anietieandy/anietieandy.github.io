@@ -133,7 +133,7 @@ We used my bilingual pivoting technique to create the paraphrase database, calle
 
 
 <div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
-<img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
+<img src="assets/img/5-Table4-1.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
 <b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
 </div>
 
