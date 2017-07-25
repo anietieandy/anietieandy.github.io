@@ -59,7 +59,7 @@ Most of my prior work on CQA proposed algorithms to reduce the percentage of una
 
 <div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
 <img src="assets/img/5-Table4-1.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
-<b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
+<b>Table 1:</b> Some named entities and their variations in our dataset.
 </div>
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
