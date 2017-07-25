@@ -57,29 +57,10 @@ Community question answering (CQA) systems are forums where users can ask and an
 
 Most of my prior work on CQA proposed algorithms to reduce the percentage of unanswered questions in a CQA by reusing the repository of past resolved questions (PARQ) from the CQA site. My collaborators and I focused especially on question categories in which most questions contain either a named entity or an entity variation i.e. the Sports and Entertainment question categories. In these categories, the vocabulary in questions can be diverse, and questions are often very short [2]. We created a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (given question, PARQ, and its corresponding answer) from the Sports and Entertainment question categories. Table 1 presents some of the named entities and their variations in our dataset.
 
-
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>HTML Tables</title>
-   </head>
-	
-   <body>
-      <table border = "1">
-         <tr>
-            <td>Row 1, Column 1</td>
-            <td>Row 1, Column 2</td>
-         </tr>
-         
-         <tr>
-            <td>Row 2, Column 1</td>
-            <td>Row 2, Column 2</td>
-         </tr>
-      </table>
-      
-   </body>
-</html>
+<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
+<img src="assets/img/5-Table4-1.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
+<b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
+</div>
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
