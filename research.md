@@ -56,6 +56,7 @@ writing styles, multiple people can express the same word, phrase, or sentence d
 sports team could be referred to by its official name, the name of the city it plays in, or by any of
 several nicknames). These make it challenging to find similar words, phrases, and sentences that
 express the same information, in text.
+
 My research interest focuses on applying machine learning to better understand the various ways
 in which words, phrases, and sentences are expressed.
 
