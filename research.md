@@ -46,19 +46,9 @@ publications:
 (Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
 </p>
 
-Over time, human knowledge has mostly been expressed in text, some of which are unstructured.
-To make sense of these knowledge and understand the nuances of human language, computers
-have to be able to extract structured knowledge from unstructured text. In certain languages,
-semantically similar sentences could be worded differently and words are sometimes ambiguous,
-hence the specific sense of a word intended in a sentence is determined by the context in which an
-instance of the ambiguous word appears. Additionally, due to the lack of uniformity in individual
-writing styles, multiple people can express the same word, phrase, or sentence differently(e.g. a
-sports team could be referred to by its official name, the name of the city it plays in, or by any of
-several nicknames). These make it challenging to find similar words, phrases, and sentences that
-express the same information, in text.
+Over time, human knowledge has mostly been expressed in text, some of which are unstructured. To make sense of these knowledge and understand the nuances of human language, computers have to be able to extract structured knowledge from unstructured text. In certain languages, semantically similar sentences could be worded differently and words are sometimes ambiguous, hence the specific sense of a word intended in a sentence is determined by the context in which an instance of the ambiguous word appears. Additionally, due to the lack of uniformity in individual writing styles, multiple people can express the same word, phrase, or sentence differently(e.g. a sports team could be referred to by its official name, the name of the city it plays in, or by any of several nicknames). These make it challenging to find similar words, phrases, and sentences that express the same information, in text.
 
-My research interest focuses on applying machine learning to better understand the various ways
-in which words, phrases, and sentences are expressed.
+My research interest focuses on applying machine learning to better understand the various ways in which words, phrases, and sentences are expressed.
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
