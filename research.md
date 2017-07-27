@@ -67,6 +67,10 @@ Community question answering (CQA) systems are online forums where users can ask
 
 In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
 
+<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
+<img src="assets/img/entityspike.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
+<b>Table 1:</b> Name variations of entities that spike in popularity at the same time in 10 minute bins during the 2016 Emmy awards show.
+</div>
 
 ## Natural Language Understanding via Paraphrasing
 
