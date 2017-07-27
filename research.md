@@ -62,7 +62,7 @@ Community question answering (CQA) systems are online forums where users can ask
 </div>
 
 
-- **Identifying PARQ's With Shared Needs as a given question**:
+- **Identifying PARQ's With Shared Needs as an unanswered question**: My collaborators and I proposed an algorithm, ENTITY-ALCHEMY, which identified PARQ's with shared needs as a given or unanswered question. It had two stages: In stage1, given the question pair, (Qgiven, [Qpast, Answer]), ENTITY-ALCHEMY identified named entities in (Qgiven and Qpast) and linked these entities to an external knowledge base, using entity linking, to find their name variations and anchor phrases. In this stage, ENTITY-ALCHEMY selects Qpast as a candidate similar question to Qgiven if both questions have a common entity, entity name variation, or anchor phrases. In stage 2, the algorithm extracts features from a pair of Qgiven and Qpast, selected in stage 1. These extracted features are used to score whether the answer to Qpast can be used to satisfy the given question, Qgiven.
 
 Approximately 15% of incoming English questions in Yahoo! Answers do not receive any answer and leave the user that asked the question (asker) unsatisfied. Also, due to the lack of uniformity in CQA users writing styles, the lack of content in some questions, and the frequent use of entity name variations in question categories with a large number of entities, a lot of algorithms will not perforrm well in entity-rich categories. In order to retrieve most of the relevant PARQ to a given question in entity-rich categories with high precision, it is important to identify the named entities and entity variations in the given question and PARQ. 
 
