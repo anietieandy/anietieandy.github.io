@@ -48,7 +48,7 @@ publications:
 
 Over time, human knowledge has mostly been expressed in text, some of which are unstructured. To make sense of these knowledge and understand the nuances of human language, computers have to be able to extract structured knowledge from unstructured text. In certain languages, semantically similar sentences could be worded differently and words are sometimes ambiguous, hence the specific sense of a word intended in a sentence is determined by the context in which an instance of the ambiguous word appears. Additionally, due to the lack of uniformity in individual writing styles, multiple people can express the same word, phrase, or sentence differently(e.g. a sports team could be referred to by its official name, the name of the city it plays in, or by any of several nicknames). These make it challenging to find similar words, phrases, and sentences that express the same information, in text.
 
-My research interest focuses on applying machine learning to better understand the various ways in which words, phrases, and sentences are expressed. Currently, I have three main areas of research:
+My research interest focuses on applying machine learning to better understand the various ways in which words, phrases, and sentences are expressed. Currently, I have two main areas of research: Question Answering and Paraphrase detection. 
 
 
 ## Community Question Answering Systems
