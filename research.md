@@ -61,6 +61,9 @@ Community question answering (CQA) systems are online forums where users can ask
 <b>Table 1:</b> Some named entities and their variations in our dataset.
 </div>
 
+
+- **Identifying PARQ's With Shared Needs as a given question**:
+
 Approximately 15% of incoming English questions in Yahoo! Answers do not receive any answer and leave the user that asked the question (asker) unsatisfied. Also, due to the lack of uniformity in CQA users writing styles, the lack of content in some questions, and the frequent use of entity name variations in question categories with a large number of entities, a lot of algorithms will not perforrm well in entity-rich categories. In order to retrieve most of the relevant PARQ to a given question in entity-rich categories with high precision, it is important to identify the named entities and entity variations in the given question and PARQ. 
 
 In this research, I and my collaboratores proposed alternative approaches to reducing the number of unanswered questions in question categories that contain a large number of entities by taking advantage of the recent successes in entity linking. We now have systems that can disambiguate named entities to a knowledge base. Matching questions and answers based on these disambiguated entities, entities, and knowledge base information related to these entities finds most of the relevant answers to a given question.
