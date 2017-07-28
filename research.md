@@ -154,37 +154,37 @@ In certain fields, real-time knowledge from events can help in making informed d
 
 <!--## Statistical Machine Translation Without Parallel Corpora-->
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
+<!--<div class="hidden-sm hidden-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">-->
+<!--<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />-->
+<!--<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="visible-sm visible-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">-->
+<!--<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />-->
+<!--<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.-->
+<!--</div>-->
+<!--</div>-->
 
-Statistical machine translation has long been purported to be "language independent" since linguistic information is not typically used when training systems.  This has been touted as a strength of the paradigm, because the only requirement for building a  new system is a sentence-aligned bilingual parallel corpus.  However, this language independence does not mean that statistical machine translation works equally well for every language.  Translation quality depends on many factors, including the amount of training data, morphological complexity, and divergences in word order.  Since very large parallel corpora are required to achieve good translation quality, statistical machine translation can, in reality, only be applied to a very limited number of languages. My research agenda for the next decade is to transform statistical machine translation so that (1) models can be trained without the use bilingual parallel corpora, (2) linguistic information can be integrated directly into the models and as priors for learning translations and re-ordering patterns, and (3) large groups of Internet users can collaborate to improve translation quality.   If successful, these efforts will radically change the field and make statistical machine translation applicable to (nearly) all of the world's languages.
+<!--Statistical machine translation has long been purported to be "language independent" since linguistic information is not typically used when training systems.  This has been touted as a strength of the paradigm, because the only requirement for building a  new system is a sentence-aligned bilingual parallel corpus.  However, this language independence does not mean that statistical machine translation works equally well for every language.  Translation quality depends on many factors, including the amount of training data, morphological complexity, and divergences in word order.  Since very large parallel corpora are required to achieve good translation quality, statistical machine translation can, in reality, only be applied to a very limited number of languages. My research agenda for the next decade is to transform statistical machine translation so that (1) models can be trained without the use bilingual parallel corpora, (2) linguistic information can be integrated directly into the models and as priors for learning translations and re-ordering patterns, and (3) large groups of Internet users can collaborate to improve translation quality.   If successful, these efforts will radically change the field and make statistical machine translation applicable to (nearly) all of the world's languages.-->
 
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
+<!--<div class="hidden-sm hidden-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">-->
+<!--<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />-->
+<!--<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="visible-sm visible-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">-->
+<!--<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />-->
+<!--<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.-->
+<!--</div>-->
+<!--</div>-->
  
-Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
+<!--Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  -->
 
 
 To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 4.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
