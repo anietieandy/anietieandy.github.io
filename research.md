@@ -123,36 +123,36 @@ In certain fields, real-time knowledge from events can help in making informed d
 
 
 
-Over the past two years we made several advances to PPDB that improve its usefulness for understanding natural language:
+<!--Over the past two years we made several advances to PPDB that improve its usefulness for understanding natural language:-->
 
-- **Semantics**:  In [Pavlick et al (2015)](#adding-semantics-to-data-driven-paraphrasing), we add an interpretable semantics to PPDB. The relationship between the phrase pairs in the database had been defined as approximately equivalent.  Our new research allows these pairs to be encoded with more nuanced semantic relations, including directed entailment (*little girl/girl*) and exclusion (*nobody/someone*). We automatically assign semantic entailment relations to all 100 million entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction.  Examples are given in Table 2.
+<!--- **Semantics**:  In [Pavlick et al (2015)](#adding-semantics-to-data-driven-paraphrasing), we add an interpretable semantics to PPDB. The relationship between the phrase pairs in the database had been defined as approximately equivalent.  Our new research allows these pairs to be encoded with more nuanced semantic relations, including directed entailment (*little girl/girl*) and exclusion (*nobody/someone*). We automatically assign semantic entailment relations to all 100 million entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction.  Examples are given in Table 2.-->
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/bug_clusters.jpg" alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
-<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
-<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/bug_clusters.jpg"  alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
-<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
-<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
-</div>
-</div>
-
-
-- **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.
-- **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and [Xu et al (2016)](#optimizing-machine-translation-for-text-simplifciation), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
-- **Word sense clustering**: The original release of PPDB grouped all senses of polysemous words together, and did not partition paraphrases into groups like WordNet does with its synsets. Thus a search for paraphrases of the noun *bug* would yield a single list of paraphrases that includes *insect, glitch, beetle, error, microbe, wire, cockroach, malfunction, microphone, mosquito, virus, tracker, pest, informer, snitch, parasite, bacterium, fault, mistake, failure* and many others.   In [Cocos and Callison-Burch (2016)](#clustering-paraphrases-by-word-sense), we systematically explore different clustering algorithms, and ways of defining the similarity matrix that they use as input (Figure 3). We produce high quality sense clusters that represent a substantial improvement to PPDB.  We are currently exploring using our sense clusters to perform word sense disambiguation.
+<!--<div class="hidden-sm hidden-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">-->
+<!--<img src="figures/research-statement/bug_clusters.jpg" alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />-->
+<!--<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />-->
+<!--<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="visible-sm visible-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">-->
+<!--<img src="figures/research-statement/bug_clusters.jpg"  alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />-->
+<!--<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />-->
+<!--<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.-->
+<!--</div>-->
+<!--</div>-->
 
 
+<!--- **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.-->
+<!--- **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and [Xu et al (2016)](#optimizing-machine-translation-for-text-simplifciation), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  -->
+<!--- **Word sense clustering**: The original release of PPDB grouped all senses of polysemous words together, and did not partition paraphrases into groups like WordNet does with its synsets. Thus a search for paraphrases of the noun *bug* would yield a single list of paraphrases that includes *insect, glitch, beetle, error, microbe, wire, cockroach, malfunction, microphone, mosquito, virus, tracker, pest, informer, snitch, parasite, bacterium, fault, mistake, failure* and many others.   In [Cocos and Callison-Burch (2016)](#clustering-paraphrases-by-word-sense), we systematically explore different clustering algorithms, and ways of defining the similarity matrix that they use as input (Figure 3). We produce high quality sense clusters that represent a substantial improvement to PPDB.  We are currently exploring using our sense clusters to perform word sense disambiguation.-->
 
-The goal of the paraphrasing line of my research is to advance the longstanding AI goal of language understanding  data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.  I have submitted an NSF CAREER proposal on this topic.  It is currently under review.
 
 
-## Statistical Machine Translation Without Parallel Corpora
+<!--The goal of the paraphrasing line of my research is to advance the longstanding AI goal of language understanding  data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.  I have submitted an NSF CAREER proposal on this topic.  It is currently under review.-->
+
+
+<!--## Statistical Machine Translation Without Parallel Corpora-->
 
 <div class="hidden-sm hidden-xs">
 <div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
