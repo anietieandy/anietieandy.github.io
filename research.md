@@ -72,22 +72,22 @@ In certain fields, real-time knowledge from events can help in making informed d
 <b>Table 1:</b> Name variations of entities that spike in popularity at the same time in 10 minute bins during the 2016 Emmy awards show.
 </div>
 
-## Natural Language Understanding via Paraphrasing
+<!--## Natural Language Understanding via Paraphrasing-->
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
-<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
-</div>
-</div><div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
-<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
-</div>
-</div>
+<!--<div class="hidden-sm hidden-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">-->
+<!--<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />-->
+<!--<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. -->
+<!--</div>-->
+<!--</div><div class="visible-sm visible-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">-->
+<!--<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />-->
+<!--<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. -->
+<!--</div>-->
+<!--</div>-->
 
-I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Bannard and Callison-Burch (2005)](#paraphrasing-with-bilingual-parallel-corpora), [Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).
+<!--I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Bannard and Callison-Burch (2005)](#paraphrasing-with-bilingual-parallel-corpora), [Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).-->
 
 
 <div class="hidden-sm hidden-xs">
