@@ -90,36 +90,36 @@ In certain fields, real-time knowledge from events can help in making informed d
 <!--I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Bannard and Callison-Burch (2005)](#paraphrasing-with-bilingual-parallel-corpora), [Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).-->
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
-</div>
-</div>
+<!--<div class="hidden-sm hidden-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">-->
+<!--<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />-->
+<!--<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="visible-sm visible-xs">-->
+<!--<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">-->
+<!--<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />-->
+<!--<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.-->
+<!--</div>-->
+<!--</div>-->
 
-I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order
-([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).
-
-
-<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
-<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
-</div>
+<!--I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order-->
+<!--([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).-->
 
 
-We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 185 times in the three years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. 
+<!--<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">-->
+<!--<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules." class="img-responsive" /><br />-->
+<!--<b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.-->
+<!--</div>-->
 
 
-<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
-<img src="assets/img/5-Table4-1.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
-<b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
-</div>
+<!--We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 185 times in the three years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. -->
+
+
+<!--<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">-->
+<!--<img src="assets/img/5-Table4-1.png" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />-->
+<!--<b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.-->
+<!--</div>-->
 
 
 
