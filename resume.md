@@ -150,12 +150,14 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 -->
 <!--
 <h2>Publications</h2>
-
+-->
 <!-- iterate over the different publication types -->
+<!--
 {% assign publication_types = "conference,journal,chapter,workshop,thesis" | split: "," %}
 {% for publication_type in publication_types %}
-
+-->
 <!-- print the publication type -->
+<!--
 {%if publication_type == "conference" %}
 <h3>Refereed conference papers (most have <a href="https://www.aclweb.org/aclwiki/index.php?title=Conference_acceptance_rates">acceptance rates</a> ≈ 25%)</h3>
 {% elsif publication_type == "journal" %}
