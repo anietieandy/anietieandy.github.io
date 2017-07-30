@@ -46,7 +46,7 @@ active_tab: CV
   </tbody>
 </table>
 
-
+<!--
 <h2>Teaching</h2>
 
 <table class="table"> 
@@ -77,7 +77,7 @@ active_tab: CV
 
   </tbody>
 </table>
-
+-->
 
 <h2>Teaching Reviews at Penn</h2>
 Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
