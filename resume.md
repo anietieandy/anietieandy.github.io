@@ -206,7 +206,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 
 -->
-
+<!--
 <h2>Invited Talks</h2>
 
 <ol>
@@ -280,3 +280,4 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   {% endfor %}
 </ol>
 
+-->
