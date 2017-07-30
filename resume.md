@@ -78,7 +78,7 @@ active_tab: CV
   </tbody>
 </table>
 -->
-
+<!--
 <h2>Teaching Reviews at Penn</h2>
 Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <table class="table"> 
@@ -103,7 +103,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   {% endfor %}
   </tbody>
 </table>
-
+-->
 
 <h2>Grants</h2>
 
