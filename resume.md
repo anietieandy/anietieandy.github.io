@@ -147,7 +147,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 {% endfor %}
 -->
-
+<!--
 <h2>Publications</h2>
 
 <!-- iterate over the different publication types -->
@@ -277,3 +277,4 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   {% endfor %}
 </ol>
 
+-->
