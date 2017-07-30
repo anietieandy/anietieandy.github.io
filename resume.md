@@ -109,8 +109,9 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 {% assign grant_status = "current,pending,past" | split: "," %}
 {% for status in grant_status %}
-
+-->
 <!-- print the grant status -->
+<!--
 {%if status == "current" %}
 <h3>Current grants</h3>
 {% elsif status == "pending" %}
