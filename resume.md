@@ -104,7 +104,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   </tbody>
 </table>
 -->
-
+<!--
 <h2>Grants</h2>
 
 {% assign grant_status = "current,pending,past" | split: "," %}
@@ -146,7 +146,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </table>
 
 {% endfor %}
-
+-->
 
 <h2>Publications</h2>
 
