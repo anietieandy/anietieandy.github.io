@@ -52,28 +52,8 @@
       title={Exploiting Named Entity Synonyms in Question Answering Systems},
       author={Andy, Anietie and Rwebangira, Mugizi}
       }
--
-   title: Constructing an Alias List for Named Entities During an Event
-   authors: Anietie Andy, Mark Dredze, Mugizi Rwebangira, and Chris Callison-Burch 
-   venue: EMNLP Workshop on Noisy User-generated Text
-   type: workshop
-   year: 2017
-   url: http://www.aclweb.org/anthology/W17-4405
-   page_count: 5
-   id: constructiong-an-alisalist-for-named-entities-events
-   abstract: In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
-   bibtex: |
-      @inproceedings{andy2017constructing,
-      title={Constructing an Alias List for Named Entities during an Event},
-      author={Andy, Anietie and Dredze, Mark and Rwebangira, Mugizi and Callison-Burch, Chris},
-      booktitle={Proceedings of the 3rd Workshop on Noisy User-generated Text},
-      pages={40--44},
-      year={2017}
-     }
-   
-   
-   
-   
+      
+
 -
    title: Exploiting Synonyms to improve Question Answering Systems
    authors: Anietie Andy, Mugizi Rwebangira, and Mohamed Chouikha
@@ -132,3 +112,27 @@
       year={2009},
       organization={IEEE}
       }
+
+      
+-
+   title: Constructing an Alias List for Named Entities During an Event
+   authors: Anietie Andy, Mark Dredze, Mugizi Rwebangira, and Chris Callison-Burch 
+   venue: EMNLP Workshop on Noisy User-generated Text
+   type: workshop
+   year: 2017
+   url: http://www.aclweb.org/anthology/W17-4405
+   page_count: 5
+   id: constructiong-an-alisalist-for-named-entities-events
+   abstract: In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
+   bibtex: |
+      @inproceedings{andy2017constructing,
+      title={Constructing an Alias List for Named Entities during an Event},
+      author={Andy, Anietie and Dredze, Mark and Rwebangira, Mugizi and Callison-Burch, Chris},
+      booktitle={Proceedings of the 3rd Workshop on Noisy User-generated Text},
+      pages={40--44},
+      year={2017}
+     }
+   
+   
+   
+   
