@@ -10,17 +10,13 @@
    id: name-variation-in-community-question-answering-systems
    abstract: Community question answering systems are forums where users can ask and answer questions in various categories. Examples are Yahoo! Answers, Quora, and Stack Overflow. A common challenge with such systems is that a significant percentage of asked questions are left unanswered. In this paper, we propose an algorithm to reduce the number of unanswered questions in Yahoo! Answers by reusing the answer to the most similar past resolved question to the unanswered question, from the site. Semantically similar questions could be worded differently, thereby making it difficult to find questions that have shared needs. For example, Who is the best player for the Reds? and Who is currently the biggest star at Manchester United? have a shared need but are worded differently; also, Reds and Manchester United are used to refer to the soccer team Manchester United football club. In this research, we focus on question categories that contain a large number of named entities and entity name variations. We show that in these categories, entity linking can be used to identify relevant past resolved questions with shared needs as a given question by disambiguating named entities and matching these questions based on the disambiguated entities, identified entities, and knowledge base information related to these entities. We evaluated our algorithm on a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (Qgiven, [Qpast, Answer]). We carried out experiments on several question categories and show that an entity-based approach gives good performance when searching for similar questions in entity rich categories.
    bibtex: |
-      @inproceedings{andy2016name,
-        author    = {Anietie Andy and Satoshi Sekine, Mugizi Rwebangira, and  Mark Dredze},
-        title     = {Name Variation in Community Question Answering Systems},
-        booktitle = {Proceedings of the COLING Workshop on Noisy User-generated Text (W-NUT)},
-        month     = {December},
-        year      = {2016},
-        address   = {Osaka, Japan},
-        publisher = {Association for Computational Linguistics},
-        pages     = {51--60},
-        url       = {http://anthology.aclweb.org/W/W16/W16-39.pdf#page=63}
-      }
+     @article{andy2016name,
+  title={Name Variation in Community Question Answering Systems},
+  author={Andy, Anietie and Sekine, Satoshi and Rwebangira, Mugizi and Dredze, Mark},
+  journal={WNUT 2016},
+  pages={51},
+  year={2016}
+}
 -
    title: An Entity-Based approach to Answering Recurrent and Non-Recurrent Questions with Past Answers
    authors: Anietie Andy, Mugizi Rwebangira, and Satoshi Sekine
@@ -32,16 +28,13 @@
    id: entity-based-qa
    abstract: Community question answering (CQA) systems such as Yahoo! Answers allow registered-users to ask and answer questions in various question categories. However, a significant percentage of asked questions in Yahoo! Answers are unanswered. In this paper, we propose to reduce this percentage by reusing answers to past resolved questions from the site. Specifically, we propose to satisfy unanswered questions in entity rich categories by searching for and reusing the best answers to past resolved questions with shared needs. For unanswered questions that do not have a past resolved question with a shared need, we propose to use the best answer to a past resolved question with similar needs. Our experiments on a Yahoo! Answers dataset shows that our approach retrieves most of the past resolved questions that have shared or similar needs to unanswered questions.
    bibtex: |
-    @InProceedings{{andy2016entity,,
-      author    = {Andy, Anietie, Rwebangira, Robert,and  Sekine, Satoshi},
-      title     = {An Entity-Base approach to Answering Recurrent and Non-Recurrent Questions with Past Answers},
-      booktitle = {Proceedings of the Open Knowledge Base and Question Answering Workshop at COLING, Short Papers},
-      month     = {December},
-      year      = {2016},
-      address   = {Osaka, Japan},
-      publisher = {Association for Computational Linguistics},
-      pages     = {39--43},
-      url       = {http://www.aclweb.org/website/old_anthology/W/W16/W16-44.pdf#page=51}
+    @article{andy2016entity,
+  title={An Entity-Based approach to Answering Recurrent and Non-Recurrent Questions with Past Answers},
+  author={Andy, Anietie and Rwebangira, Mugizi and Sekine, Satoshi},
+  journal={OKBQA 2016},
+  pages={39},
+  year={2016}
+}
     }
 -
    title: Exploiting Named Entity Synonyms in Question Answering Systems 
@@ -54,15 +47,10 @@
    id: exploiting-named-entity-synonyms-in-question-answering-systems
    abstract: Community Question answering (CQA) systems have increasingly become popular among internet users. CQA’s such as Yahoo! Answers have a large repository of resolved questions i.e. questions that have been satisfactorily answered. One of the challenges with these systems is that some questions are left unanswered thereby leaving the user unsatisfied. Papers have proposed algorithms to reduce the number of unanswered questions. Some of the proposed algorithms work as follows&colon; (i) direct the unanswered question to CQA users that can potentially answer the question and (ii) use answers to past resolved questions that are similar to the given question. This paper explores an approach that extracts the word synonyms of named entities in a given question and searches the dataset of past resolved questions for similar resolved questions to the given question. The answer to the most similar resolved question is used to satisfy the given question. This paper proposes an algorithm to improve the CQA user experience by using the answer to the most similar past resolved question to satisfy a given question. In cases where the answer to the most similar question cannot satisfy the given question, the proposed algorithm recommends the answer to a related question. Although the answer to the related question will probably not satisfy the given question, it will engage the CQA user and perhaps provide a clue to answer the given question. 
    bibtex: |
-      @article{andyexploiting,
-         author = {Anietie Andy and Mugizi Rwebangira},
-         title = {Exploiting Named Entity Synonyms in Question Answering Systems},
-         journal = {Symposium on Computing at Minority Institutions, ADMI},
-         volume = {},
-         number = {},
-         year = {2016},
-         url = {https://www.admiusa.org/admi2016/Papers_Graduate_Student/ADMI2016_Andy.pdf}
-       }
+     @article{andyexploiting,
+  title={Exploiting Named Entity Synonyms in Question Answering Systems},
+  author={Andy, Anietie and Rwebangira, Mugizi}
+}
 -
    title: Constructing an Alias List for Named Entities During an Event
    authors: Anietie Andy, Mark Dredze, Mugizi Rwebangira, and Chris Callison-Burch 
@@ -71,6 +59,17 @@
    year: 2017
    page_count: 5
    abstract: In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
+   bibtex: |
+   @inproceedings{andy2017constructing,
+  title={Constructing an Alias List for Named Entities during an Event},
+  author={Andy, Anietie and Dredze, Mark and Rwebangira, Mugizi and Callison-Burch, Chris},
+  booktitle={Proceedings of the 3rd Workshop on Noisy User-generated Text},
+  pages={40--44},
+  year={2017}
+}
+   
+   
+   
    
 -
    title: Exploiting Synonyms to improve Question Answering Systems
