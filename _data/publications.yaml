@@ -16,7 +16,7 @@
       journal={WNUT 2016},
       pages={51},
       year={2016}
-}
+      }
 
 -
    title: An Entity-Based approach to Answering Recurrent and Non-Recurrent Questions with Past Answers
@@ -35,7 +35,7 @@
       journal={OKBQA 2016},
       pages={39},
       year={2016}
-}
+      }
     
 -
    title: Exploiting Named Entity Synonyms in Question Answering Systems 
@@ -51,7 +51,7 @@
       @article{andyexploiting,
       title={Exploiting Named Entity Synonyms in Question Answering Systems},
       author={Andy, Anietie and Rwebangira, Mugizi}
-}
+      }
 -
    title: Constructing an Alias List for Named Entities During an Event
    authors: Anietie Andy, Mark Dredze, Mugizi Rwebangira, and Chris Callison-Burch 
@@ -69,7 +69,7 @@
       booktitle={Proceedings of the 3rd Workshop on Noisy User-generated Text},
       pages={40--44},
       year={2017}
-}
+     }
    
    
    
