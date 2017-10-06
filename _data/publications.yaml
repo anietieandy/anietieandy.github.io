@@ -53,7 +53,6 @@
       author={Andy, Anietie and Rwebangira, Mugizi}
       }
       
-
 -
    title: Exploiting Synonyms to improve Question Answering Systems
    authors: Anietie Andy, Mugizi Rwebangira, and Mohamed Chouikha
@@ -73,7 +72,8 @@
        number={18},
        year={2014},
        publisher={Foundation of Computer Science}
-       } 
+       }
+       
 -
    title: A computer model of the annihilation of the electric field in an electromagnetic wave by the elastic stress field of a rotated grain
    authors: Andy, A.U. | Abayomi, A.T. | Kennefick, C.M.
@@ -111,9 +111,7 @@
       pages={68--72},
       year={2009},
       organization={IEEE}
-      }
-
-      
+      }      
 -
    title: Constructing an alias list for named entities during an event
    authors: Anietie Andy, Mark Dredze, Mugizi Rwebangira, and Chris Callison-Burch 
