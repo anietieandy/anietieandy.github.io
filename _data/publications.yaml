@@ -1,22 +1,25 @@
 -
-   title: Name Variation in Community Question Answering Systems
-   authors: Anietie Andy, Satoshi Sekine, Mugizi Rwebangira, Mark Dredze
-   venue: COLING Workshop on Noisy User-generated Text
-   type: workshop
-   award: Best Paper Award
-   year: 2016
-   url: http://anthology.aclweb.org/W/W16/W16-39.pdf#page=63
-   page_count: 10
-   id: name-variation-in-community-question-answering-systems
-   abstract: Community question answering systems are forums where users can ask and answer questions in various categories. Examples are Yahoo! Answers, Quora, and Stack Overflow. A common challenge with such systems is that a significant percentage of asked questions are left unanswered. In this paper, we propose an algorithm to reduce the number of unanswered questions in Yahoo! Answers by reusing the answer to the most similar past resolved question to the unanswered question, from the site. Semantically similar questions could be worded differently, thereby making it difficult to find questions that have shared needs. For example, Who is the best player for the Reds? and Who is currently the biggest star at Manchester United? have a shared need but are worded differently; also, Reds and Manchester United are used to refer to the soccer team Manchester United football club. In this research, we focus on question categories that contain a large number of named entities and entity name variations. We show that in these categories, entity linking can be used to identify relevant past resolved questions with shared needs as a given question by disambiguating named entities and matching these questions based on the disambiguated entities, identified entities, and knowledge base information related to these entities. We evaluated our algorithm on a new dataset constructed from Yahoo! Answers. The dataset contains annotated question pairs, (Qgiven, [Qpast, Answer]). We carried out experiments on several question categories and show that an entity-based approach gives good performance when searching for similar questions in entity rich categories.
+   title: Problems in Current Text Simplification Research&colon; New Data Can Help
+   authors: Wei Xu, Chris Callison-Burch, and Courtney Napoles
+   venue: TACL
+   type: journal
+   year: 2015
+   url: publications/new-data-for-text-simplification.pdf
+   id: new-data-for-text-simplification
+   abstract: Simple Wikipedia has dominated simplification research in the past 5 years. In this opinion paper, we argue that focusing on Wikipedia limits simplification research. We back up our arguments with corpus analysis and by highlighting statements that other researchers have made in the simplification literature. We introduce a new simplification dataset that is a significant improvement over Simple Wikipedia, and present a novel quantitative-comparative approach to study the quality of simplification data resources. 
    bibtex: |
-      @article{andy2016name,
-      title={Name Variation in Community Question Answering Systems},
-      author={Andy, Anietie and Sekine, Satoshi and Rwebangira, Mugizi and Dredze, Mark},
-      journal={WNUT 2016},
-      pages={51},
-      year={2016}
-}
+      @article{Xu-EtAl:2015:TACL,
+         author = {Wei Xu and Chris Callison-Burch and Courtney Napoles},
+         title = {Problems in Current Text Simplification Research: New Data Can
+       Help},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume = {3},
+         year = {2015},
+         url = {http://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf},
+         pages = {283--297}
+       }
+       
+-
 -
    title: An Entity-Based approach to Answering Recurrent and Non-Recurrent Questions with Past Answers
    authors: Anietie Andy, Mugizi Rwebangira, and Satoshi Sekine
