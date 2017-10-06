@@ -24,7 +24,7 @@
    venue: Open Knowledge Base and Question Answering Workshop (OKBQA2016)
    type: workshop
    year: 2016
-   url: publications/entity-based-qa.pdf
+   url: http://www.anthology.aclweb.org/W/W16/W16-44.pdf#page=51
    page_count: 5
    id: entity-based-qa
    abstract: Community question answering (CQA) systems such as Yahoo! Answers allow registered-users to ask and answer questions in various question categories. However, a significant percentage of asked questions in Yahoo! Answers are unanswered. In this paper, we propose to reduce this percentage by reusing answers to past resolved questions from the site. Specifically, we propose to satisfy unanswered questions in entity rich categories by searching for and reusing the best answers to past resolved questions with shared needs. For unanswered questions that do not have a past resolved question with a shared need, we propose to use the best answer to a past resolved question with similar needs. Our experiments on a Yahoo! Answers dataset shows that our approach retrieves most of the past resolved questions that have shared or similar needs to unanswered questions.
