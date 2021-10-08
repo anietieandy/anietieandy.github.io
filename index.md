@@ -10,11 +10,6 @@ active_tab: main_page
 keep_sidebar: true 
 ---
 
-I am a Postdoctoral Reasearch Fellow at the Department of Computer and Information Science, University of Pennsylvania, working with Chris Callison-Burch.
+I am a senior data scientist at the Penn Medicine Center for Digital Health. My research focuses on developing and applying machine learning and natural language processing algorithms to Medicine, health care, public health, and well-being. Also, I am interested in developing natural language processing and machine learning algorithms that use multimodal sources (text, video, images) to summarize and gain insights about events and online communities.
 
-Over time, human knowledge has mostly been expressed in text, some of which are unstructured.
-To make sense of these knowledge and understand the nuances of human language, computers
-have to be able to extract structured knowledge from unstructured text. 
-
-My research interest focuses on applying machine learning to better understand the various ways
-in which words, phrases, and sentences are expressed.
+Before joining Penn Medicine, I was a postdoctoral fellow in the Department of Computer and Information Science at the University of Pennsylvania. I completed my PhD in Computer Science at Howard University
