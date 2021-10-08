@@ -4,8 +4,8 @@ layout: default
 img: Anietie-Andy-headshot
 img_link: assets/img/Anietie-Andy-headshot.jpg
 caption:  |
- <b>Office:</b> Levine 057<br />
- <b>Email:</b> aandy@seas.upenn.edu<br />
+ <b>Office:</b> PCAM 14th floor<br />
+ <b>Email:</b> Anietie.Andy@pennmedicine.upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
 ---
