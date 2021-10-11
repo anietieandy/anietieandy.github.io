@@ -1,4 +1,25 @@
 -
+ title: Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models
+   authors: Andy, Anietie U and Guntuku, Sharath C and Adusumalli, Srinath and Asch, David A and Groeneveld, Peter W and Ungar, Lyle H and Merchant, Raina M}
+   venue: JMIR cardio
+   type: Journal
+   year: 2021
+   url: https://cardio.jmir.org/2021/1/e24473/
+   page_count: 6
+   id: predicting-cardiovascular-disease
+   abstract: "Background - Current atherosclerotic cardiovascular disease (ASCVD) predictive models have limitations; thus, efforts are underway to improve the discriminatory power of ASCVD models. Objective - We sought to evaluate the discriminatory power of social media posts to predict the 10-year risk for ASCVD as compared to that o pooled cohort risk equations (PCEs). Methods- We consented patients receiving care in an urban academic emergency department to share access to their Facebook posts and electronic medical records (EMRs). We retrieved Facebook status updates up to 5 years prior to study enrollment for all consenting patients. We identified patients (N=181) without a prior history of coronary heart disease, an ASCVD score in their EMR, and more than 200 words in their Facebook posts. Using Facebook posts from these patients, we applied a machine-learning model to predict 10-year ASCVD risk scores. Using a machine-learning model and a psycholinguistic dictionary, Linguistic Inquiry and Word Count, we evaluated if language from posts alone could predict differences in risk scores and the association of certain words with risk categories, respectively. Results - The machine-learning model predicted the 10-year ASCVD risk scores for the categories <5%, 5%-7.4%, 7.5%-9.9%, and ≥10% with area under the curve (AUC) values of 0.78, 0.57, 0.72, and 0.61, respectively. The machine-learning model distinguished between low risk (<10%) and high risk (>10%) with an AUC of 0.69. Additionally, the machine-learning model predicted the ASCVD risk score with Pearson r=0.26. Using Linguistic Inquiry and Word Count, patients with higher ASCVD scores were more likely to use words associated with sadness (r=0.32). Conclusions -  Language used on social media can provide insights about an individual’s ASCVD risk and inform approaches to risk modification."
+bibtex: |
+@article{andy2021predicting,
+  title={Predicting Cardiovascular Risk Using Social Media Data: Performance Evaluation of Machine-Learning Models},
+  author={Andy, Anietie U and Guntuku, Sharath C and Adusumalli, Srinath and Asch, David A and Groeneveld, Peter W and Ungar, Lyle H and Merchant, Raina M},
+  journal={JMIR cardio},
+  volume={5},
+  number={1},
+  pages={e24473},
+  year={2021},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
+-
    title: Understanding user communication around loneliness on online forums
    authors: Anietie Andy
    venue: Plos one
